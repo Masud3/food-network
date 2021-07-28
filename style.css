@@ -6,6 +6,9 @@ h1{
     font-size: 40px;
 }
 
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color: orange;
 }
@@ -49,4 +52,61 @@ h1{
     background-image: url(images/shapes/about-me.png);
     background-repeat: no-repeat;
     padding-top: 50px;
+}
+
+
+/* recipe section */
+.recipe-text{
+    text-align: center;
+    margin:0 300px;
+}
+.recipe-text p{
+    font-size: 13px;
+    color: gray;
+}
+
+
+/* recipe card */
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.card-content{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.card-content img{
+    width: 100%;
+}
+
+.card-content:hover{
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    background-color: powderblue;
+}
+
+.card-desc{
+    padding: 2px 16px;
+}
+
+/* footer section */
+
+footer{
+    background-color: #111111;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2{
+    color: gray;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+    opacity: 0.5;
 }
