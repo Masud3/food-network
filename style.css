@@ -70,7 +70,6 @@ h2{
 .card-container{
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
 }
 .card-content{
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
@@ -109,4 +108,28 @@ footer p{
     color: white;
     font-size: 12px;
     opacity: 0.5;
+}
+
+
+/* bonus mark social media section */
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    margin: 100px 100px;
+    padding: 40px 0;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.social-media:hover{
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fafafafa;
+}
+.social-media div{
+    text-align: center;
+    line-height: 10px;
+}
+.social-media div img{
+    width: 50px;
 }
